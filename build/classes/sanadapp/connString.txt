@@ -1,0 +1,1 @@
+jdbc:sqlserver://localhost:1433;databaseName=sanad_programm;integratedSecurity=false;

@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 28, 2016, 8:46:12 AM
+    Author     : Abd Almohimmen
+*/
+
+
+.combo-box 
+{
+    -fx-background: #42A5F5;
+    -fx-background-color: #42A5F5;
+}
+
+
+
+.combo-box .list-cell 
+{
+    -fx-background: #42A5F5;
+    -fx-background-color: #42A5F5;
+    -fx-text-fill: white;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 2em; 
+}
+
+.combo-box-popup .list-view 
+{
+    -fx-background-color: blue, purple;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}    
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-padding: 4 0 4 5;
+
+    /* No alternate highlighting */
+    -fx-background-color: #2196F3;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover 
+{
+    -fx-background-color: #8da2c4;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+
