@@ -16,6 +16,7 @@ public class ClassesNames {
     public static final String sector_AlMedan="الميدان";
     public static final String sector_AlHamediea="الحميدية";
     public static final String sector_Hasiaa="حسياء";
+    public static final String sector_mobile_team="الفريق الجوال";
     public static final String sector_other="غير ذلك";
     public static int sectorCode=-1;
     
@@ -141,9 +142,14 @@ public class ClassesNames {
                 sectorCode=4;
                 return 4;
             }
-            case sector_other:{
+            case sector_mobile_team:
+            {
                 sectorCode=5;
                 return 5;
+            }
+            case sector_other:{
+                sectorCode=6;
+                return 6;
             }
                 
         }

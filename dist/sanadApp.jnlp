@@ -12,7 +12,7 @@
     <jar href="lib\controlsfx-8.40.13.jar" size="1213306" download="eager" />
     <jar href="lib\poi-3.14-20160307.jar" size="2528204" download="eager" />
     <jar href="lib\sqljdbc42.jar" size="653574" download="eager" />
-    <jar href="sanadApp.jar" size="716620" download="eager" />
+    <jar href="sanadApp.jar" size="716700" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="sanadApp" >
     <param name="requiredFXVersion" value="8.0+"/>

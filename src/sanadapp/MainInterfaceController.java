@@ -105,7 +105,6 @@ public class MainInterfaceController implements Initializable {
         stage.setScene(scene);
         root = null;
         scene = null;
-        //stage.setResizable(false);
         stage.setX(15);
         stage.setY(2);
         stage.setTitle("متابعة الحالات");
@@ -210,7 +209,7 @@ public class MainInterfaceController implements Initializable {
         //select sector
         cb_sector.getItems().addAll(ClassesNames.sector_AlMedan,
                 ClassesNames.sector_Alhamra,ClassesNames.sector_AlHamediea,ClassesNames.sector_Hasiaa,
-                ClassesNames.sector_other);
+                ClassesNames.sector_mobile_team,ClassesNames.sector_other);
         
         //create the connection to database
         
